@@ -1,0 +1,8 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/antonioaugustoalves/ignite01-github-explorer",
+  "author": "Antonio A Alves <antonioaugusto.alves1981@gmail.com>",
+  "license": "MIT"
+}

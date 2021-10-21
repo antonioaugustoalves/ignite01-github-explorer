@@ -4,10 +4,15 @@ import { Counter } from "./Counter";
 import '../styles/repositories.scss';
 import { useState, useEffect } from "react"; //Hooks do react
 
+interface Repository {
+  name: string;
+  description: string;
+  html_url: string;
+}
 
 export function RepositoryList() {
   //Sempre inicie o estado com o mesmo tipo de dados
-  const [repositories, setRepositories] = useState([]);
+  const [repositories, setRepositories] = useState<Repository[]>([]);
 
   /*Serve para disparar uma função quando alguma coisa acontecer
   Exemplo quando ocorre a alteração de valores em alguma variavel
